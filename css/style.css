@@ -43,9 +43,13 @@ ol {
 }
 
 /* --------------------Header -------------------------*/
+.header-containet {
+  display: flex;
+}
 .header {
 }
 .nav {
+  display: flex;
 }
 .logo {
   font-family: "Raleway", sans-serif;
