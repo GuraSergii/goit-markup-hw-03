@@ -51,6 +51,7 @@ ol {
 }
 .nav {
   display: flex;
+  align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -60,6 +61,7 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  margin-right: 76px;
 }
 .logo-twopart {
   color: var(--color-grey);
@@ -73,6 +75,7 @@ ol {
 }
 .header-list {
   display: flex;
+  gap: 40px;
 }
 .nav-list {
   font-weight: 500;
