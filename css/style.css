@@ -83,6 +83,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-grey);
+  padding: 24px 0;
 }
 
 .nav-list:hover,
@@ -92,6 +93,7 @@ ol {
 
 .address {
   font-style: normal;
+  margin: 0 auto;
 }
 .address-link {
   font-size: 16px;
@@ -109,6 +111,7 @@ ol {
 
 .hero {
   background-color: var(--color-grey);
+  padding: 188px 0;
 }
 .hero-title {
   font-size: 56px;
@@ -116,8 +119,11 @@ ol {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);
+  max-width: 496px;
+  margin: 0 auto 48px auto;
 }
 .hero-button {
+  display: block;
   background-color: var(--color-iris);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -125,6 +131,12 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-white);
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
 }
 .hero-button:hover,
 .hero-button:focus {
