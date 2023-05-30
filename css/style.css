@@ -154,9 +154,9 @@ ol {
   gap: 24px;
 }
 
-.two-list-li {
+/* .two-list-li {
   width: calc((100% - 72px) / 4);
-}
+} */
 
 .visually-hidden {
   position: absolute;
