@@ -158,7 +158,7 @@ ol {
   width: calc((100% - 72px) / 4);
 }
 
-.hidden-title {
+.visually-hidden {
 }
 .two-title {
   font-weight: 500;
