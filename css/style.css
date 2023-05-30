@@ -179,7 +179,9 @@ ol {
 .three-section {
   padding-bottom: 120px;
 }
-
+img {
+  display: block;
+}
 .tree-title {
   font-size: 36px;
   line-height: 1.11;
@@ -219,6 +221,10 @@ ol {
   gap: 24px;
 }
 
+.four-div {
+  padding: 32px 16px;
+}
+
 .team-list {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
@@ -230,15 +236,30 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-grey);
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.p-text {
+  text-align: center;
 }
 /* --------------------Footer section----------------------- */
 
 .footer {
   background-color: var(--color-grey);
+  padding: 100px 0;
+}
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-footer-twopart {
   color: var(--color-cloud);
+}
+
+.footer-p {
+  max-width: 264px;
 }
 
 /* ---------------------Portfolio main  buttons---------------------- */
