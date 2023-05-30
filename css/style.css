@@ -176,6 +176,10 @@ ol {
 }
 
 /* -------------------------Tree section------------------- */
+.three-section {
+  padding-bottom: 120px;
+}
+
 .tree-title {
   font-size: 36px;
   line-height: 1.11;
@@ -183,10 +187,22 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-grey);
+  margin-bottom: 72px;
 }
+
+.three-list {
+  display: flex;
+  gap: 24px;
+}
+
+.three-list-li {
+  width: calc((100% - 48px) / 3);
+}
+
 /*----------------------- four section "Team"---------------- */
 .team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .section-team-title {
   font-size: 36px;
@@ -195,10 +211,18 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-grey);
+  margin-bottom: 72px;
+}
+
+.four-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-list {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-title {
   font-weight: 500;
