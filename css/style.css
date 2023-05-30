@@ -149,10 +149,10 @@ ol {
   padding: 120px 0;
 }
 
-.two-list {
+/* .two-list {
   display: flex;
   gap: 24px;
-}
+} */
 
 .two-list-li {
   width: calc((100% - 72px) / 4);
